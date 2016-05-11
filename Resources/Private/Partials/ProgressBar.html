@@ -5,6 +5,7 @@
 	 data-namespace-typo3-fluid="true">
 
 	<f:section name="ProgressBar">
+		<bo:flexForm />
 		<v:asset.script fluid="true" rewrite="true" name="progressbar{data.uid}">
 			$(document).ready(function () {
 				var line = new ProgressBar.Line('<f:format.raw>#loader-slick-id{data.uid}</f:format.raw>', {

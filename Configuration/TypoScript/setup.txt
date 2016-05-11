@@ -38,15 +38,6 @@ tt_content.slickcarousel {
     layoutRootPaths {
         10 = EXT:slickcarousel/Resources/Private/Layouts/
     }
-
-    dataProcessing {
-        10 = Bo\Slickcarousel\DataProcessing\FlexFormProcessor
-        20 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
-        20 {
-            references.fieldName = slickdefault
-            as = slickimages
-        }
-    }
 }
 
 tt_content.slickcarouselbasic = FLUIDTEMPLATE
@@ -62,15 +53,6 @@ tt_content.slickcarouselbasic {
 
     layoutRootPaths {
         10 = EXT:slickcarousel/Resources/Private/Layouts/
-    }
-
-    dataProcessing {
-        10 = Bo\Slickcarousel\DataProcessing\FlexFormProcessor
-        20 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
-        20 {
-            references.fieldName = slickdefault
-            as = slickimages
-        }
     }
 }
 
@@ -95,44 +77,6 @@ tt_content.slickcarouselsync {
         20 {
             references.fieldName = slickdefault
             as = slickimages
-        }
-    }
-}
-
-tt_content.slickcarouselbgimg = FLUIDTEMPLATE
-tt_content.slickcarouselbgimg {
-    templateName = Slickcarouselbgimg
-    templateRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Templates/
-    }
-
-    partialRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Partials/
-    }
-
-    layoutRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Layouts/
-    }
-
-    dataProcessing {
-        10 = Bo\Slickcarousel\DataProcessing\FlexFormProcessor
-        20 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
-        20 {
-            table = tx_slickcarouselbgimg
-            where {
-                data = field:uid
-                intval = 1
-                wrap = tt_content=|
-            }
-            orderBy = sorting
-            as = slides
-            dataProcessing {
-                10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
-                10 {
-                    references.fieldName = image
-                    as = images
-                }
-            }
         }
     }
 }

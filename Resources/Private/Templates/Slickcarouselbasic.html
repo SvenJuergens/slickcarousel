@@ -6,34 +6,36 @@
 	<f:layout name="Default" />
 
 	<f:section name="Main">
-		<div class="slick-container">
+		<v:resource.record.fal table="tt_content" field="slickdefault" as="slickimages" uid="{data.uid}">
+			<div class="slick-container">
+				<f:if condition="{v:variable.typoscript(path: 'plugin.tx_slickcarousel.slick_progressbar_basic')}">
+					<f:if condition="{data.pi_flexform.autoplay}">
+						<div id="loader-slick-id{data.uid}"></div>
+					</f:if>
+				</f:if>
+				<div class="slick-slider slick-default" id="slick-id{data.uid}">
+					<f:if condition="{data.pi_flexform.randomSlide} == 'vhs'">
+						<v:iterator.sort subject="{slickimages}" as="slickimages" order="RAND" />
+					</f:if>
+
+					<f:for each="{slickimages}" as="file" iteration="i">
+						<div class="slick-item">
+							<figure>
+								<img class="slick-img" data-lazy="{f:uri.image(image: file, maxWidth: 1980)}" title="{file.title}" alt="{file.alternative}" />
+								<f:if condition="{file.description}">
+									<figcaption>{file.description}</figcaption>
+								</f:if>
+							</figure>
+						</div>
+					</f:for>
+				</div>
+			</div>
+			<f:render partial="AssetBasic" section="Basic" arguments="{_all}" />
 			<f:if condition="{v:variable.typoscript(path: 'plugin.tx_slickcarousel.slick_progressbar_basic')}">
 				<f:if condition="{data.pi_flexform.autoplay}">
-					<div id="loader-slick-id{data.uid}"></div>
+					<f:render partial="ProgressBar" section="ProgressBar" arguments="{_all}" />
 				</f:if>
 			</f:if>
-			<div class="slick-slider slick-default" id="slick-id{data.uid}">
-				<f:if condition="{data.pi_flexform.randomSlide} == 'vhs'">
-					<v:iterator.sort subject="{slickimages}" as="slickimages" order="RAND" />
-				</f:if>
-
-				<f:for each="{slickimages}" as="file" iteration="i">
-					<div class="slick-item">
-						<figure>
-							<img class="slick-img" data-lazy="{f:uri.image(image: file, maxWidth: 1980)}" title="{file.title}" alt="{file.alternative}" />
-							<f:if condition="{file.description}">
-								<figcaption>{file.description}</figcaption>
-							</f:if>
-						</figure>
-					</div>
-				</f:for>
-			</div>
-		</div>
-		<f:render partial="AssetBasic" section="Basic" arguments="{_all}" />
-		<f:if condition="{v:variable.typoscript(path: 'plugin.tx_slickcarousel.slick_progressbar_basic')}">
-			<f:if condition="{data.pi_flexform.autoplay}">
-				<f:render partial="ProgressBar" section="ProgressBar" arguments="{_all}" />
-			</f:if>
-		</f:if>
+		</v:resource.record.fal>
 	</f:section>
 </div>

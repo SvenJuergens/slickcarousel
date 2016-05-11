@@ -22,15 +22,6 @@ mod.wizards {
                         }
                     }
 
-                    slickcarouselbgimg {
-                        icon = EXT:slickcarousel/slick.svg
-                        title = LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.title
-                        description =  LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.description
-                        tt_content_defValues {
-                            CType = slickcarouselbgimg
-                        }
-                    }
-
                     slickcarousel {
                         icon = EXT:slickcarousel/slick.svg
                         title = LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarousel.title
@@ -42,7 +33,7 @@ mod.wizards {
                 }
             }
 
-            slick.show := addToList(slickcarouselbasic, slickcarouselsync, slickcarousel, slickcarouselbgimg)
+            slick.show := addToList(slickcarouselbasic, slickcarouselsync, slickcarousel)
         }
     }
 }

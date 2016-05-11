@@ -184,42 +184,6 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['slickcarousel'] = 'sl
 
 // Slick Expert - END
 
-// Slick Text - START
-
-$GLOBALS['TCA']['tt_content']['types']['slickcarouselbgimg'] = array(
-    'showitem' => '
-        --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
-		header;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header.ALT.div_formlabel,
-		slickheight;LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.height,
-		tx_slickcarouselbgimg;LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.title,
-		--div--;LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:settings,
-		pi_flexform;LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:settings,
-	--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
-		--palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
-	--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access,
-		--palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.visibility;visibility,
-		--palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.access;access,
-	--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.extended
-	--div--;Gridelements,
-	    tx_gridelements_container,
-        tx_gridelements_columns,
-    '
-);
-
-$GLOBALS['TCA']['tt_content']['columns']['pi_flexform']['config']['ds'][',slickcarouselbgimg'] =
-    'FILE:EXT:slickcarousel/Configuration/FlexForms/slick-responsive.xml';
-
-$GLOBALS['TCA']['tt_content']['columns']['CType']['config']['items'][] = array(
-    'LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.title',
-    'slickcarouselbgimg',
-    'EXT:slickcarousel/slick.svg'
-);
-
-$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['slickcarouselbgimg'] = 'slickicon';
-
-// Slick Text - END
-
-
 foreach ($backupCTypeItems as $key => $value) {
     $GLOBALS['TCA']['tt_content']['columns']['CType']['config']['items'][] = $value;
 }

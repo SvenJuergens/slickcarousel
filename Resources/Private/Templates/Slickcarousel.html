@@ -16,16 +16,18 @@
 				<f:if condition="{data.pi_flexform.randomSlide} == 'vhs'">
 					<v:iterator.sort subject="{slickimages}" as="slickimages" order="RAND" />
 				</f:if>
-				<f:for each="{slickimages}" as="file" iteration="i">
-					<div class="slick-item">
-						<figure>
-							<img class="slick-img" data-lazy="{f:uri.image(image: file, maxWidth: 1980)}" title="{file.title}" alt="{file.alternative}" />
-							<f:if condition="{file.description}">
-								<figcaption>{file.description}</figcaption>
-							</f:if>
-						</figure>
-					</div>
-				</f:for>
+				<v:resource.record.fal table="tt_content" field="slickdefault" as="slickimages" uid="{data.uid}">
+					<f:for each="{slickimages}" as="file" iteration="i">
+						<div class="slick-item">
+							<figure>
+								<img class="slick-img" data-lazy="{f:uri.image(image: file, maxWidth: 1980)}" title="{file.title}" alt="{file.alternative}" />
+								<f:if condition="{file.description}">
+									<figcaption>{file.description}</figcaption>
+								</f:if>
+							</figure>
+						</div>
+					</f:for>
+				</v:resource.record.fal>
 			</div>
 		</div>
 		<f:render partial="AssetAll" section="JS-Responsive" arguments="{_all}" />

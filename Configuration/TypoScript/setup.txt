@@ -23,6 +23,15 @@ plugin.tx_slickcarousel.slick_progressbar_strokeWidth = {$slick_progressbar_stro
 plugin.tx_slickcarousel.slick_progressbar_trailWidth = {$slick_progressbar_trailWidth}
 plugin.tx_slickcarousel.slick_progressbar_easing = {$slick_progressbar_easing}
 
+
+plugin.tx_amsocialmedia {
+    view {
+        templateRootPath = EXT:slickcarousel/Resources/Private/Templates/
+        partialRootPath = EXT:slickcarousel/Resources/Private/Partials/
+        layoutRootPath = EXT:slickcarousel/Resources/Private/Layouts/
+    }
+}
+
 ### Template ###
 tt_content.slickcarousel = FLUIDTEMPLATE
 tt_content.slickcarousel {

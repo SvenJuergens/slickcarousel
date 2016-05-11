@@ -26,57 +26,24 @@ plugin.tx_slickcarousel.slick_progressbar_easing = {$slick_progressbar_easing}
 ### Template ###
 tt_content.slickcarousel = FLUIDTEMPLATE
 tt_content.slickcarousel {
-    templateName = Slickcarousel
-    templateRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Templates/
-    }
-
-    partialRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Partials/
-    }
-
-    layoutRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Layouts/
-    }
+    template = FILE
+    template.file = EXT:slickcarousel/Resources/Private/Templates/Slickcarousel.html
+    partialRootPath = EXT:slickcarousel/Resources/Private/Partials/
+    layoutRootPath = EXT:slickcarousel/Resources/Private/Layouts/
 }
 
 tt_content.slickcarouselbasic = FLUIDTEMPLATE
 tt_content.slickcarouselbasic {
-    templateName = Slickcarouselbasic
-    templateRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Templates/
-    }
-
-    partialRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Partials/
-    }
-
-    layoutRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Layouts/
-    }
+    template = FILE
+    template.file = EXT:slickcarousel/Resources/Private/Templates/Slickcarouselbasic.html
+    partialRootPath = EXT:slickcarousel/Resources/Private/Partials/
+    layoutRootPath = EXT:slickcarousel/Resources/Private/Layouts/
 }
 
 tt_content.slickcarouselsync = FLUIDTEMPLATE
 tt_content.slickcarouselsync {
-    templateName = Slickcarouselsync
-    templateRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Templates/
-    }
-
-    partialRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Partials/
-    }
-
-    layoutRootPaths {
-        10 = EXT:slickcarousel/Resources/Private/Layouts/
-    }
-
-    dataProcessing {
-        10 = Bo\Slickcarousel\DataProcessing\FlexFormProcessor
-        20 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
-        20 {
-            references.fieldName = slickdefault
-            as = slickimages
-        }
-    }
+    template = FILE
+    template.file = EXT:slickcarousel/Resources/Private/Templates/Slickcarouselsync.html
+    partialRootPath = EXT:slickcarousel/Resources/Private/Partials/
+    layoutRootPath = EXT:slickcarousel/Resources/Private/Layouts/
 }

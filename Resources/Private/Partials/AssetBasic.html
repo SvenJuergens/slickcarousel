@@ -1,10 +1,10 @@
 <div xmlns="http://www.w3.org/1999/xhtml" lang="en"
 	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
 	 xmlns:f="http://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers"
+	 xmlns:bo="http://typo3.org/ns/Bo/Slickcarousel/ViewHelpers"
 	 data-namespace-typo3-fluid="true">
 
 	<f:section name="Basic">
-		<bo:flexForm />
 		<v:asset.script fluid="true" rewrite="true" name="slick-id{data.uid}">
 			$(document).ready(function () {
 				$('#slick-id{data.uid}').slick({

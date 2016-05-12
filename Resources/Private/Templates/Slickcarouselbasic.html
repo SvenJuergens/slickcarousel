@@ -6,6 +6,7 @@
 	<f:layout name="Default" />
 
 	<f:section name="Main">
+		<bo:flexForm />
 		<v:resource.record.fal table="tt_content" field="slickdefault" as="slickimages" uid="{data.uid}">
 			<div class="slick-container">
 				<f:if condition="{v:variable.typoscript(path: 'plugin.tx_slickcarousel.slick_progressbar_basic')}">

@@ -1,11 +1,13 @@
 <div xmlns="http://www.w3.org/1999/xhtml" lang="en"
 	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
 	 xmlns:f="http://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers"
+	 xmlns:bo="http://typo3.org/ns/Bo/Slickcarousel/ViewHelpers"
 	 data-namespace-typo3-fluid="true">
 
 	<f:layout name="Default" />
 
 	<f:section name="Main">
+		<bo:flexForm />
 		<v:resource.record.fal table="tt_content" field="slickdefault" as="slickimages" uid="{data.uid}">
 			<div class="slick-container">
 				<v:variable.set name="slick-synced" value="true" />

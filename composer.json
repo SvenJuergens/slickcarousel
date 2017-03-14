@@ -7,6 +7,9 @@
     "typo3/cms": ">=7.6.0,<8.0",
     "fluidtypo3/vhs": "*"
   },
+  "support": {
+    "issues": "https://github.com/misterboe/slickcarousel/issues"
+  },
   "authors": [
     {
       "name": "Boris Schauer",
@@ -17,6 +20,10 @@
     "psr-4": {
       "Bo\\Slickcarousel\\": "Classes"
     }
+  },
+  "replace": {
+    "slickcarousel": "self.version",
+    "typo3-ter/slickcarousel": "self.version"
   },
   "extra": {
     "typo3/cms": {

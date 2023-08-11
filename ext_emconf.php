@@ -6,13 +6,12 @@ $EM_CONF['slickcarousel'] = [
     'category' => 'templates',
     'version' => '4.1.0',
     'state' => 'stable',
-    'clearcacheonload' => 1,
     'author' => 'Boris Schauer',
     'author_email' => 'me@bschauer.de',
     'author_company' => 'bschauer, analog',
     'constraints' => [
         'depends' => [
-            'typo3' => '9.5.17-11.5.99',
+            'typo3' => '11.5.17-12.4.99',
             'vhs' => '*',
         ],
         'conflicts' => [],

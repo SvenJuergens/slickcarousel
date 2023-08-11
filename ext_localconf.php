@@ -1,6 +1,6 @@
 <?php
 
-if (!defined('TYPO3_MODE')) {
+if (!defined('TYPO3')) {
     die('Access denied.');
 }
 
@@ -11,19 +11,12 @@ if (!defined('TYPO3_MODE')) {
 /***************
  * Make the extension configuration accessible
  */
-if (class_exists(\TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class)) {
+
     $extensionConfiguration = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
         \TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class
     );
     $slickcarouselPackageConfiguration = $extensionConfiguration->get('slickcarousel');
-} else {
-    // Fallback for CMS8
-    // @extensionScannerIgnoreLine
-    $slickcarouselPackageConfiguration = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['slickcarousel'];
-    if (!is_array($slickcarouselPackageConfiguration)) {
-        $slickcarouselPackageConfiguration = unserialize($slickcarouselPackageConfiguration);
-    }
-}
+
 
 // Disable default Content Elements
 

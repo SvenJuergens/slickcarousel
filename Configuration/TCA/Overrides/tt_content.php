@@ -20,7 +20,7 @@ $showitem_default_02 = '--div--;LLL:EXT:frontend/Resources/Private/Language/loca
 
 $slick_default_fields = [
     'slickdefault' => [
-        'label' => 'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.images',
+        'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.images',
         'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig('slickdefault', [
             'appearance' => [
                 'createNewRelationLinkTitle' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:images.addFileReference'
@@ -29,12 +29,12 @@ $slick_default_fields = [
                 'types' => [
                     '0' => [
                         'showitem' => '
-                                --palette--;LLL:EXT:lang/Resources/Private/Language/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;slickslider,
+                                --palette--;LLL:EXT:core/Resources/Private/Language/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;slickslider,
                                 --palette--;;slickslider'
                     ],
                     \TYPO3\CMS\Core\Resource\File::FILETYPE_IMAGE => [
                         'showitem' => '
-                                --palette--;LLL:EXT:lang/Resources/Private/Language/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;slickslider,
+                                --palette--;LLL:EXT:core/Resources/Private/Language/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;slickslider,
                                 --palette--;;filePalette'
                     ]
                 ],
@@ -104,7 +104,7 @@ $slick_default_fields = [
     [
         'LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbasic.title',
         'slickcarouselbasic',
-        'EXT:slickcarousel/slick.svg'
+        'EXT:slickcarousel/Resources/Public/Icons/slick.svg'
     ],
     '--div--',
     'after'
@@ -166,7 +166,7 @@ $GLOBALS['TCA']['tt_content']['types']['slickcarouselbasic']['columnsOverrides']
     [
         'LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselsync.title',
         'slickcarouselsync',
-        'EXT:slickcarousel/slick.svg'
+        'EXT:slickcarousel/Resources/Public/Icons/slick.svg'
     ],
     '--div--',
     'after'
@@ -250,7 +250,7 @@ $GLOBALS['TCA']['tt_content']['types']['slickcarouselsync']['columnsOverrides'][
     [
         'LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarousel.title',
         'slickcarousel',
-        'EXT:slickcarousel/slick.svg'
+        'EXT:slickcarousel/Resources/Public/Icons/slick.svg'
     ],
     '--div--',
     'after'
@@ -311,7 +311,7 @@ $GLOBALS['TCA']['tt_content']['types']['slickcarousel']['columnsOverrides']['sli
     [
         'LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.title',
         'slickcarouselbgimg',
-        'EXT:slickcarousel/slick.svg'
+        'EXT:slickcarousel/Resources/Public/Icons/slick.svg'
     ],
     '--div--',
     'after'

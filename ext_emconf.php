@@ -11,7 +11,7 @@ $EM_CONF['slickcarousel'] = [
     'author_company' => 'bschauer, analog',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.5.17-12.4.99',
+            'typo3' => '11.5.0-12.4.99',
             'vhs' => '*',
         ],
         'conflicts' => [],

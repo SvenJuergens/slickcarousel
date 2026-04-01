@@ -7,7 +7,7 @@ mod.wizards {
                     slickcarouselbasic {
                         iconIdentifier = slickicon
                         title = LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbasic.title
-                        description =  LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbasic.description
+                        description = LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbasic.description
                         tt_content_defValues {
                             CType = slickcarouselbasic
                         }
@@ -25,7 +25,7 @@ mod.wizards {
                     slickcarouselbgimg {
                         iconIdentifier = slickicon
                         title = LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.title
-                        description =  LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.description
+                        description = LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slickcarouselbging.description
                         tt_content_defValues {
                             CType = slickcarouselbgimg
                         }

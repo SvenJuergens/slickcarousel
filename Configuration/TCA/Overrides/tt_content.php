@@ -21,7 +21,10 @@ $showitem_default_02 = '--div--;LLL:EXT:frontend/Resources/Private/Language/loca
 $slick_default_fields = [
     'slickdefault' => [
         'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.images',
-        'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig('slickdefault', [
+        'config' => [
+            ### !!! Watch out for fieldName different from columnName
+            'type' => 'file',
+            'allowed' => $GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext'],
             'appearance' => [
                 'createNewRelationLinkTitle' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:images.addFileReference'
             ],
@@ -39,7 +42,7 @@ $slick_default_fields = [
                     ]
                 ],
             ],
-        ], $GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext'])
+        ]
     ],
     'tx_slickcarouselbgimg' => [
         'exclude' => 0,
@@ -55,7 +58,6 @@ $slick_default_fields = [
                 'showSynchronizationLink' => false,
                 'showAllLocalizationLink' => true,
                 'showPossibleLocalizationRecords' => false,
-                'showRemovedLocalizationRecords' => false,
                 'expandSingle' => true,
                 'enabledControls' => [
                     'localize' => true,

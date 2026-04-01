@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <T3DataStructure>
     <meta type="array">
         <langDisable>1</langDisable>
@@ -6,592 +6,480 @@
     <sheets>
         <general>
             <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:general</sheetTitle>
-                </TCEforms>
+                <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:general</sheetTitle>
                 <el type="array">
                     <accessibility type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:accessibility
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:accessibility
                             </label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </accessibility>
                     <autoplay type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:autoplay</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:autoplay</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </autoplay>
                     <autoplaySpeed type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:autoplaySpeed
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:autoplaySpeed
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>5000</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>5000</default>
+                        </config>
                     </autoplaySpeed>
                     <centerMode type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:centerMode</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:centerMode</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>0</default>
+                        </config>
                     </centerMode>
                     <centerPadding type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:centerPadding
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:centerPadding
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>50px</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>50px</default>
+                        </config>
                     </centerPadding>
                     <cssEase type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:cssEase</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>20</size>
-                                <default>cubic-bezier(0.455, 0.03, 0.515, 0.955)</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:cssEase</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>20</size>
+                            <default>cubic-bezier(0.455, 0.03, 0.515, 0.955)</default>
+                        </config>
                     </cssEase>
                     <dots type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:dots</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:dots</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </dots>
                     <dotsClass type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:dotsClass</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>slick-dots</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:dotsClass</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>slick-dots</default>
+                        </config>
                     </dotsClass>
                     <draggable type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:draggable</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:draggable</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </draggable>
                     <easing type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:easing</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>linear</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:easing</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>linear</default>
+                        </config>
                     </easing>
                     <edgeFriction type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:edgeFriction
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:edgeFriction
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>0.15</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>0.15</default>
+                        </config>
                     </edgeFriction>
                     <fade type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:fade</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:fade</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>0</default>
+                        </config>
                     </fade>
                     <mobileFirst type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:mobileFirst</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:mobileFirst</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </mobileFirst>
                     <infinite type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:infinite</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:infinite</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </infinite>
                     <initialSlide type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:initialSlide
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:initialSlide
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>0</default>
+                        </config>
                     </initialSlide>
                     <randomSlide type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:randomSlide
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:randomSlide
                             </label>
-                            <config type="array">
-                                <type>radio</type>
-                                <items type="array">
-                                    <numIndex index="0" type="array">
-                                        <numIndex index="0">LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:randomSlide.none</numIndex>
-                                        <numIndex index="1">off</numIndex>
-                                    </numIndex>
-                                    <numIndex index="1" type="array">
-                                        <numIndex index="0">LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:randomSlide.js</numIndex>
-                                        <numIndex index="1">js</numIndex>
-                                    </numIndex>
-                                    <numIndex index="3" type="array">
-                                        <numIndex index="0">LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:randomSlide.vhs</numIndex>
-                                        <numIndex index="1">vhs</numIndex>
-                                    </numIndex>
-                                </items>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>radio</type>
+                            <items type="array">
+                                <numIndex index="0" type="array">
+                                    <numIndex index="0">LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:randomSlide.none</numIndex>
+                                    <numIndex index="1">off</numIndex>
+                                </numIndex>
+                                <numIndex index="1" type="array">
+                                    <numIndex index="0">LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:randomSlide.js</numIndex>
+                                    <numIndex index="1">js</numIndex>
+                                </numIndex>
+                                <numIndex index="3" type="array">
+                                    <numIndex index="0">LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:randomSlide.vhs</numIndex>
+                                    <numIndex index="1">vhs</numIndex>
+                                </numIndex>
+                            </items>
+                        </config>
                     </randomSlide>
                     <lazyLoad type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:lazyLoad</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <items type="array">
-                                    <numIndex index="0" type="array">
-                                        <numIndex index="0">ondemand</numIndex>
-                                        <numIndex index="1">ondemand</numIndex>
-                                    </numIndex>
-                                    <numIndex index="1" type="array">
-                                        <numIndex index="0">progressive</numIndex>
-                                        <numIndex index="1">progressive</numIndex>
-                                    </numIndex>
-                                </items>
-                                <default>progressive</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:lazyLoad</label>
+                        <config type="array">
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <items type="array">
+                                <numIndex index="0" type="array">
+                                    <numIndex index="0">ondemand</numIndex>
+                                    <numIndex index="1">ondemand</numIndex>
+                                </numIndex>
+                                <numIndex index="1" type="array">
+                                    <numIndex index="0">progressive</numIndex>
+                                    <numIndex index="1">progressive</numIndex>
+                                </numIndex>
+                            </items>
+                            <default>progressive</default>
+                        </config>
                     </lazyLoad>
                     <pauseOnHover type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:pauseOnHover
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:pauseOnHover
                             </label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </pauseOnHover>
                     <pauseOnDotsHover type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:pauseOnDotsHover
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:pauseOnDotsHover
                             </label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </pauseOnDotsHover>
                     <respondTo type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:respondTo</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <items type="array">
-                                    <numIndex index="0" type="array">
-                                        <numIndex index="0">window</numIndex>
-                                        <numIndex index="1">window</numIndex>
-                                    </numIndex>
-                                    <numIndex index="1" type="array">
-                                        <numIndex index="0">slider</numIndex>
-                                        <numIndex index="1">slider</numIndex>
-                                    </numIndex>
-                                    <numIndex index="2" type="array">
-                                        <numIndex index="0">min</numIndex>
-                                        <numIndex index="1">min</numIndex>
-                                    </numIndex>
-                                </items>
-                                <default>window</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:respondTo</label>
+                        <config type="array">
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <items type="array">
+                                <numIndex index="0" type="array">
+                                    <numIndex index="0">window</numIndex>
+                                    <numIndex index="1">window</numIndex>
+                                </numIndex>
+                                <numIndex index="1" type="array">
+                                    <numIndex index="0">slider</numIndex>
+                                    <numIndex index="1">slider</numIndex>
+                                </numIndex>
+                                <numIndex index="2" type="array">
+                                    <numIndex index="0">min</numIndex>
+                                    <numIndex index="1">min</numIndex>
+                                </numIndex>
+                            </items>
+                            <default>window</default>
+                        </config>
                     </respondTo>
                     <speed type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:speed</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>600</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:speed</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>600</default>
+                        </config>
                     </speed>
                     <swipe type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:swipe</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:swipe</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </swipe>
                     <swipeToSlide type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:swipeToSlide
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:swipeToSlide
                             </label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>check</type>
+                            <default>0</default>
+                        </config>
                     </swipeToSlide>
                     <touchMove type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:touchMove</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:touchMove</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </touchMove>
                     <useCSS type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:useCSS</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:useCSS</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </useCSS>
                     <variableWidth type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:variableWidth
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:variableWidth
                             </label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>check</type>
+                            <default>0</default>
+                        </config>
                     </variableWidth>
                     <vertical type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:vertical</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:vertical</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>0</default>
+                        </config>
                     </vertical>
                     <verticalSwiping type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:verticalSwiping
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:verticalSwiping
                             </label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>check</type>
+                            <default>0</default>
+                        </config>
                     </verticalSwiping>
                     <rtl type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rtl</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rtl</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>0</default>
+                        </config>
                     </rtl>
                     <waitForAnimate type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:waitForAnimate
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:waitForAnimate
                             </label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>0</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>check</type>
+                            <default>0</default>
+                        </config>
                     </waitForAnimate>
                     <zIndex type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:zIndex</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1000</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:zIndex</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1000</default>
+                        </config>
                     </zIndex>
                 </el>
             </ROOT>
         </general>
         <screen-xs>
             <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:xs</sheetTitle>
-                </TCEforms>
+                <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:xs</sheetTitle>
                 <el type="array">
                     <slidesToShow-xs type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToShow
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToShow
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesToShow-xs>
                     <slidesToScroll-xs type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToScroll
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToScroll
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesToScroll-xs>
                     <rows-xs type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rows</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rows</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </rows-xs>
                     <slidesPerRow-xs type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesPerRow
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesPerRow
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesPerRow-xs>
                     <arrows-xs type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:arrows</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:arrows</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </arrows-xs>
                 </el>
             </ROOT>
         </screen-xs>
         <screen-sm>
             <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:sm</sheetTitle>
-                </TCEforms>
+                <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:sm</sheetTitle>
                 <el type="array">
                     <slidesToShow-sm type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToShow
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToShow
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesToShow-sm>
                     <slidesToScroll-sm type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToScroll
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToScroll
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesToScroll-sm>
                     <rows-sm type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rows</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rows</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </rows-sm>
                     <slidesPerRow-sm type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesPerRow
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesPerRow
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesPerRow-sm>
                     <arrows-sm type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:arrows</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:arrows</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </arrows-sm>
                 </el>
             </ROOT>
         </screen-sm>
         <screen-md>
             <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:md</sheetTitle>
-                </TCEforms>
+                <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:md</sheetTitle>
                 <el type="array">
                     <slidesToShow-md type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToShow
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToShow
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesToShow-md>
                     <slidesToScroll-md type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToScroll
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToScroll
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesToScroll-md>
                     <rows-md type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rows</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rows</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </rows-md>
                     <slidesPerRow-md type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesPerRow
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesPerRow
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesPerRow-md>
                     <arrows-md type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:arrows</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:arrows</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </arrows-md>
                 </el>
             </ROOT>
         </screen-md>
         <screen-lg>
             <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:lg</sheetTitle>
-                </TCEforms>
+                <sheetTitle>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:lg</sheetTitle>
                 <el type="array">
                     <slidesToShow-lg type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToShow
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToShow
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesToShow-lg>
                     <slidesToScroll-lg type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToScroll
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesToScroll
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesToScroll-lg>
                     <rows-lg type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rows</label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:rows</label>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </rows-lg>
                     <slidesPerRow-lg type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesPerRow
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:slidesPerRow
                             </label>
-                            <config type="array">
-                                <type>input</type>
-                                <size>1</size>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <config type="array">
+                            <type>input</type>
+                            <size>1</size>
+                            <default>1</default>
+                        </config>
                     </slidesPerRow-lg>
                     <arrows-lg type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:arrows</label>
-                            <config type="array">
-                                <type>check</type>
-                                <default>1</default>
-                            </config>
-                        </TCEforms>
+                        <label>LLL:EXT:slickcarousel/Resources/Private/Language/be_locallang.xlf:arrows</label>
+                        <config type="array">
+                            <type>check</type>
+                            <default>1</default>
+                        </config>
                     </arrows-lg>
                 </el>
             </ROOT>
